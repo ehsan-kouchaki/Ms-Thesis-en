@@ -19,5 +19,6 @@ Our method is evaluated on a simulation model of a humanoid robot provided in Mu
 
 The robot is 84 cm high and weights 5.2 kg. It possesses 20 degrees of freedom: six on each leg, three for each hand and two for head. The joints at hands and head are fixed and do not contribute in balance control in this simulation. For each leg, roll and pitch motions on hip, pitch on knee, and pitch and roll on ankle are considered.
 
+The two codes, one is for pure PID controller and the other is for full control algorithm in which the PPO method is implemented.
 
 
